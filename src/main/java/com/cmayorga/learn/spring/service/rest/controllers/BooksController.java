@@ -27,7 +27,7 @@ public class BooksController {
 	
 	
 	@GetMapping("/books/{id}")
-    public Book getAllBooks(@PathVariable int id) {
+        public Book findBookById(@PathVariable int id) {
         
         System.out.println(" :-) Looking for a book with id --> " + id);
         
